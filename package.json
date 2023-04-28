@@ -1,6 +1,6 @@
 {
   "name": "redux-dialog2",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "A Higher Order Component using react-redux to keep dialog state in a Redux store",
   "main": "dist/redux.dialog.js",
   "module": "dist/redux.dialog.esm.js",
@@ -33,11 +33,11 @@
   "author": "Vlad Suciu",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-modal": "^3.4.5",
-    "react-redux": "^5.0.6",
-    "redux": "^3.5.2 || ^4.0.0-0"
+    "react": "^16.0.0" || "^18.0.0",
+    "react-dom": "^16.0.0" || "^18.0.0",
+    "react-modal": "^3.4.5" || "^3.16.1",
+    "react-redux": "^5.0.6" || "^8.0.5",
+    "redux": "^3.5.2 || ^4.0.0-0" || "^4.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.2.0",
