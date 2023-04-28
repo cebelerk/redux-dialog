@@ -1,9 +1,9 @@
 {
-  "name": "redux-dialog2",
-  "version": "0.2.10",
+  "name": "@cebelerk/redux-dialog",
+  "version": "1.0.0",
   "description": "A Higher Order Component using react-redux to keep dialog state in a Redux store",
-  "main": "dist/redux.dialog2.js",
-  "module": "dist/redux.dialog2.esm.js",
+  "main": "dist/redux.dialog.js",
+  "module": "dist/redux.dialog.esm.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/suciuvlad/redux-dialog.git"

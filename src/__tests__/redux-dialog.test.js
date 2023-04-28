@@ -7,7 +7,7 @@ import serializer from 'enzyme-to-json/serializer';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
 
-import reduxDialog2 from '../redux-dialog2';
+import reduxDialog from '../redux-dialog';
 
 const middlewares = [];
 const mockStore = configureStore(middlewares);
@@ -32,7 +32,7 @@ describe('reduxDialog', () => {
       }
     };
 
-    const Dialog = reduxDialog2({
+    const Dialog = reduxDialog({
       name: 'dialog1',
       ariaHideApp: false
     })(BasicDialog);
@@ -53,7 +53,7 @@ describe('reduxDialog', () => {
       }
     };
 
-    const Dialog = reduxDialog2({
+    const Dialog = reduxDialog({
       name: 'dialog1'
     })(BasicDialog);
 
@@ -73,7 +73,7 @@ describe('reduxDialog', () => {
       }
     };
 
-    const Dialog = reduxDialog2({
+    const Dialog = reduxDialog({
       name: 'dialog1',
       ariaHideApp: false,
       isOpen: true
@@ -99,7 +99,7 @@ describe('reduxDialog', () => {
       }
     };
 
-    const Dialog = reduxDialog2({
+    const Dialog = reduxDialog({
       name: 'dialog1',
       ariaHideApp: false,
       isOpen: true

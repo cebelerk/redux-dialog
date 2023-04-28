@@ -1,6 +1,6 @@
-import reduxDialog2 from './redux-dialog2';
+import reduxDialog from './redux-dialog';
 import dialogReducer from './reducer';
 import { openDialog, closeDialog, closeAllDialogs } from './actions';
 
-export default reduxDialog2;
+export default reduxDialog;
 export { dialogReducer, openDialog, closeDialog, closeAllDialogs };
