@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Modal from 'react-modal';
 import { closeDialog } from './actions';
 
-const reduxDialog = dialogProps => {
+const reduxDialog2 = dialogProps => {
   const {
     name,
     onAfterOpen = () => {},
@@ -51,4 +51,4 @@ const reduxDialog = dialogProps => {
   };
 };
 
-export default reduxDialog;
+export default reduxDialog2;
