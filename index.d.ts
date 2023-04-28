@@ -1,1 +1,1 @@
-declare module 'redux-dialog';
+declare module 'redux-dialog2';
