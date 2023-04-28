@@ -19,7 +19,7 @@ export default [
     input: './src/index.js',
     output: {
       exports: 'named',
-      file: './dist/redux.dialog.js',
+      file: './dist/redux.dialog2.js',
       format: 'cjs'
     },
     external: externals,
